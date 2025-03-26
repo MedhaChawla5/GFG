@@ -9,3 +9,5 @@ class Solution:
             for j in range(i):
                 dp[i] += dp[j]*dp[i-j-1]
         return dp[n]
+#for valid paran : find(n/2) catalan if even n , if odd n then ans : 0
+#for triangulating polygon , find (n-2) catalan's number 
